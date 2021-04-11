@@ -20,7 +20,7 @@ body {
 .container {
   position: relative;
   width: 1440px;
-  height: 1388px;
+  height: 1379px;
   margin: auto;
 }
 
@@ -146,3 +146,5 @@ body {
   top: 908px;
   filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
 }
+
+/* Background Toggles */
