@@ -79,3 +79,70 @@ body {
   width: 138.44px;
   height: 46.28px;
 }
+
+.main-image-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.iphone-15 {
+  position: absolute;
+  height: 411.15px;
+  left: 1039.36px;
+  right: 193.21px;
+  top: 229.73px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+  transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0);
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 444px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.cart-img {
+  position: absolute;
+  height: 444px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 444px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
