@@ -8,26 +8,7 @@ function changeBackground(number) {
   }
   // Reset CSS class for body.
   body.className = '';
-  switch (number) {
-    case '1':
-      // code block
-      return prevBackground === 'background-1'
-        ? false
-        : body.classList.add('background-1');
-
-    case '2':
-      return prevBackground === 'background-2'
-        ? false
-        : body.classList.add('background-2');
-    case '3':
-      return prevBackground === 'background-3'
-        ? false
-        : body.classList.add('background-3');
-    case '4':
-      return prevBackground === 'background-4'
-        ? false
-        : body.classList.add('background-4');
-    default:
-      break;
+  if (!(prevBackground === `background-${number}`)) {
+    body.classList.add(`background-${number}`);
   }
 }
